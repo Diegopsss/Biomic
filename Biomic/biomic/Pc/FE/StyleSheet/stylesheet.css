@@ -1,0 +1,214 @@
+html{
+    font-family: sans-serif;
+    background-color: rgb(56, 52, 52);
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden  ;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    box-sizing: border-box;
+    height: 75%;
+
+}
+
+.box__menu{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 20vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border-left: 5px solid rgb(80, 114, 35);
+    text-align: left;
+    box-shadow: 0 0 55px 0 black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ul__menu--nav{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.li__menu--nav{
+    margin: 10% 0%;
+    padding: 5%;
+    background: linear-gradient(to right, rgb(87, 144, 87) 25%, transparent);
+    border-radius: 30px;
+    
+}
+
+.li__menu--nav:hover{
+    box-shadow: 0 0 55px 0 black;
+    background: linear-gradient(to right, rgb(75, 212, 75) 25%, transparent);
+    border-radius: 10px;
+    
+}
+.menu__nav{
+    margin: 0;
+    padding: 0;
+}
+
+ul li::marker{
+    content: none;
+    
+}
+
+.header__text{
+    position: absolute;
+    background: linear-gradient(to right, rgb(120, 182, 120), transparent);
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    box-shadow: 0 0 55px 0 black;
+
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+}
+
+
+
+.div__img--logoBiomic{
+    width: 100vw;
+    
+}
+
+.div__modal{
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    background: linear-gradient(to left, rgb(202, 198, 198) 10%, rgba(51, 97, 51, 0.014));
+
+}
+
+.div__button--modal{
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    background-color: whitesmoke;
+    top: 35%;
+    left: 50%;
+    border-left: 5px solid rgb(109, 98, 98);
+    
+
+}
+.a__modal{
+    margin: 0;
+    position: absolute;
+    padding: 4%;
+    color: black;
+    
+    
+}
+
+.div__button--modal:hover{
+    box-shadow: 0 0 35px 0 black;
+}
+
+/*ventana modal*/
+
+.div-modal__background{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0009;
+
+}
+
+.div__modal--content{
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    background:linear-gradient(rgb(117, 111, 111), green);
+    left: 25%;
+    top: 25%;
+    border-left: 5px solid rgb(82, 80, 77);
+    box-shadow: 0 0 55px 0 black;
+    
+}
+
+
+.div__modal--header{
+    position: static;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding: 4%;
+}
+
+.p__modal{
+    text-align: center  ;
+    font-size: larger;
+    
+}
+
+.div__button--mobile{
+    background: linear-gradient(to right, rgb(18, 170, 137), rgb(128, 128, 128));
+    border: 5px;
+    text-align: center;
+    width: 70%;
+    padding: 2%;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.div__button--mobile:hover{
+    box-shadow: 0 0 55px 0 black;
+    color: rgba(90, 158, 90, 0.349);
+}
+
+.a__modal--button--mobil{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.a__modal--button--mobil:hover{
+    transition-duration: 1s;
+    color: rgb(248, 247, 255);
+    
+}
+
+.close__modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid rgb(122, 119, 119);
+    width: 9%;
+    height: 8%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.close__modal:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
